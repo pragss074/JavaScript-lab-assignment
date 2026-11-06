@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab 9 - DOM, Validation, Storage and Quiz</title>
+</head>
+<body>
+  <h1 id="welcomeHeading">Welcome</h1>
+  <button id="changeButton" type="button">Change text</button>
+
+  <h2>Local Storage Note</h2>
+  <label for="noteBox">Your note:</label>
+  <input id="noteBox" type="text" placeholder="Enter a note">
+  <button id="saveButton" type="button">Save</button>
+  <p id="saveStatus" aria-live="polite"></p>
+
+  <h2>Quiz</h2>
+  <p>What is 2 + 3?</p>
+  <label><input type="radio" name="answer" value="4"> 4</label>
+  <label><input type="radio" name="answer" value="5"> 5</label>
+  <label><input type="radio" name="answer" value="6"> 6</label>
+  <button id="checkAnswer" type="button">Check answer</button>
+  <p id="quizResult" aria-live="polite"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
